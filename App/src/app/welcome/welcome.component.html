@@ -1,0 +1,24 @@
+<div class='container jumbotron' id='container'>
+    <div class='row'>
+        <div class='col-sm-9'>
+            <div class='jumbotron text-center'>
+                <h1 class='display-4'>Find Inspirational Quotes Here</h1>
+                <p class='lead'>AuthorsApp also provides an interface to add quotes to inspire others</p>
+                <hr style= 'background-color:lightblue;' class='my-4'>
+                <button type='button' class='btn btn-primary' [routerLink]='["/login"]' id='login'>
+                    &nbsp;&nbsp;&nbsp;&nbsp;Login &nbsp;&nbsp;&nbsp;&nbsp;
+                </button>
+                <br>
+                <small style="color:rgb(128, 37, 37);">Don't have an account yet? <b><a class='link' [routerLink]='["/register"]'>Sign up</a></b></small>
+            </div>
+        </div>
+        <div class='col-sm-3' id='home-quote'>
+            <div class='text-center'>
+                <blockquote cite='Will Rogers' id='quote'>
+                    <span>"</span> {{randomQuote | titlecase}} &nbsp; &nbsp;<span>"</span>
+                    &nbsp; &nbsp; &nbsp; &nbsp; <small id='citation'>Will Rogers </small>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</div>

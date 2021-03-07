@@ -1,0 +1,35 @@
+<div class='container' id='login-container'>
+    <div id='login-form' class='col-sm-6'>
+        <div class='card' id='card'>
+            <div class='card-header text-center'>
+                <h2 class='card-title'>Login Form</h2>
+            </div>
+            <div class='card-body'>
+                <br> <br>
+                <form id='form' class='needs-validation' novalidate>
+                    <div class='form-group row'>
+                        <label class='form-label col-sm-3'>Email</label>
+                        <input class='form-control form-control-lg col-sm-7' type='email' id='email' placeholder='Enter Email' required>
+                        <div class="invalid-feedback" id='invalidEmail'>
+                            Please provide a valid email
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class='form-group row'>
+                        <label class='form-label col-sm-3'>Password</label>
+                        <input class='form-control form-control-lg col-sm-7' type='password' id='password' placeholder='Enter Password' required>
+                        <div class="invalid-feedback" id='invalidPassword'>
+                            Password Incorrect
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class='text-center'>
+                        <button class='btn btn-success' type='button' id='submit-btn'[disabled] ='true'>&nbsp; &nbsp; Submit &nbsp; &nbsp;</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>

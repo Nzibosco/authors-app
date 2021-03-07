@@ -1,0 +1,20 @@
+@media screen and (min-width: 800px){
+
+    #login-container {
+        width: 100%;
+        margin-left: 30%;
+        padding-bottom: 20px;
+    }
+}
+
+#email, #password, #submit-btn {
+    box-shadow: 3px 3px 20px 8px rgb(165, 61, 61);
+    border-radius: 20px;
+    font-style: italic;
+    outline: none;
+}
+
+#card {
+    border-radius: 20px;
+    font-style: italic;
+}

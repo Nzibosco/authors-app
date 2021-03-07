@@ -1,0 +1,37 @@
+@media screen and (min-width: 800px){
+
+    #navbarSupportedContent{
+    margin-left: 20%;
+}
+
+#navbarSupportedContent li {
+    padding-right: 180px;
+}
+
+}
+
+#logout {
+    outline: none;
+    border-radius: 30px;
+    border-color: white;
+    color: white;
+}
+
+
+#main {
+    position:relative;
+    min-height: 95vh;
+    width: 100%
+}
+
+#content {
+    padding-bottom: 13rem;
+    margin-top:10px;
+}
+
+#footer {
+    bottom: 0;
+    position:absolute;
+    height: 10rem;
+    width: 100%   
+}

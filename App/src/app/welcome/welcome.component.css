@@ -1,0 +1,34 @@
+#home-quote {
+    font-size: 21px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    padding-top: 60px;
+    
+}
+
+#home-quote span {
+    color: rgb(231, 41, 114);
+    font-size: 32px;
+}
+
+#container {
+    top: 60px;
+}
+
+#citation {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    text-decoration: underline;
+    color: rgb(160, 60, 21);
+}
+
+#quote {
+    padding: 5px;
+    box-shadow: 5px 5px 15px 10px rgb(153, 101, 101);
+    border-radius: 25px;
+}
+
+#login{
+    border-radius: 40px;
+    outline: none;
+}

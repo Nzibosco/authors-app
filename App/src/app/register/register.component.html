@@ -1,0 +1,59 @@
+<div class='container' id='register-container'>
+    <div id='login-form' class='col-sm-6'>
+        <div class='card' id='card'>
+            <div class='card-header text-center'>
+                <h4 class='card-title'>Fill the below form to register</h4>
+            </div>
+            <div class='card-body'>
+                <br> <br>
+                <form id='form' class='needs-validation' novalidate>
+                    <div class='form-group row'>
+                        <label class='form-label col-sm-3'>First Name</label>
+                        <input class='form-control form-control-lg col-sm-7' type='text' id='firstName' placeholder='Enter First Name' required>
+                        <div class="invalid-feedback" id='invalidFirstName'>
+                            Please provide valid first name
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class='form-group row'>
+                        <label class='form-label col-sm-3'>Last Name</label>
+                        <input class='form-control form-control-lg col-sm-7' type='text' id='lastName' placeholder='Enter Last Name' required>
+                        <div class="invalid-feedback" id='invalidLastName'>
+                            Please provide valid last name
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class='form-group row'>
+                        <label class='form-label col-sm-3'>Phone Number</label>
+                        <input class='form-control form-control-lg col-sm-7' type='number' id='phoneNumber' placeholder='Enter Phone Number' required>
+                        <div class="invalid-feedback" id='invalidPhoneNumber'>
+                            Please provide valid phone number
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class='form-group row'>
+                        <label class='form-label col-sm-3'>Email</label>
+                        <input class='form-control form-control-lg col-sm-7' type='email' id='email' placeholder='Enter Email' required>
+                        <div class="invalid-feedback" id='invalidEmail'>
+                            Please provide a valid email
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class='form-group row'>
+                        <label class='form-label col-sm-3'>Password</label>
+                        <input class='form-control form-control-lg col-sm-7' type='password' id='password' placeholder='Enter Password' required>
+                        <div class="invalid-feedback" id='invalidPassword'>
+                            Password Incorrect
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class='text-center'>
+                        <button class='btn btn-success' type='button' id='submit-btn'[disabled] ='true'>&nbsp; &nbsp; Submit &nbsp; &nbsp;</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>

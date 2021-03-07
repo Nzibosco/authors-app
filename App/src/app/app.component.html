@@ -1,9 +1,32 @@
-<div>
-  <nav class='navbar nav-lg bg-success'>
-    <a class='navbar-brand text-light' [routerLink]='[]'>AuthorsApp</a>
-  </nav>
-  <div>
+<nav class="navbar navbar-expand-lg navbar-light bg-success">
+  <a class="navbar-brand text-light" [routerLink]='["/welcome"]' routerLinkActive='active'>AuthorsApp</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a [routerLink]='["/dashboard"]' class="nav-link text-light">Home</a>
+      </li>
+      <li class="nav-item">
+        <a [routerLink]='["/register"]' class="nav-link text-light">Register</a>
+      </li>
+
+      <li class="nav-item">
+        <a [routerLink]='["/profile"]' class="nav-link text-light">Profile</a>
+      </li>
+    </ul>
+    <button type="button" id='logout' class="bg-success" [routerLink]='["/logout"]'>Logout</button>
+  </div>
+</nav>
+<div id='main' class='main'>
+  <div class='container-fluid' id='content'>
     <router-outlet></router-outlet>
   </div>
-  <footer></footer>
+  <footer id='footer' class='jumbotron footer bg-light'>
+    <div class='container-fluid text-center'>
+      <h1 class='display-4'>AuthorsApp</h1>
+    </div>
+  </footer>
 </div>
